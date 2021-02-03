@@ -1,7 +1,6 @@
 FROM centos:centos7
 
 # home配下にコピー
-COPY .bashrc /root/
 COPY .netrc /root/
 COPY .zshrc /root/
 
